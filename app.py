@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 st.title("Buyer Segmentation Dashboard")
 
 # Load dataset
-clients = pd.read_csv(r"C:\Users\jagad\Downloads\clients.csv")
+clients = pd.read_csv("clients.csv")
 
 # Sidebar
 st.sidebar.header("Filter")
